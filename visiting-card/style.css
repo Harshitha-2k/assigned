@@ -1,0 +1,36 @@
+
+#one{
+    display: flex;
+    justify-content: center;
+}
+.two{
+    display: flex;
+    border: 1px solid black;
+    height:45vh;
+} 
+.head{
+    margin: 100px 8px;
+    width:105px;
+} 
+.three{
+    position: relative;
+    top: 45px;
+} 
+@media (min-width:320px) {
+    .two{
+        width: auto;
+        height: 219px;
+    }
+    hr{
+        width: auto;
+    }
+}
+@media (max-width:1024px) {
+    hr{
+        width:8px;
+        margin: 45px 12px;
+        background-color: lightsteelblue;
+        border: 1px;
+        border-radius: 15px;
+    }
+}
